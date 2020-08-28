@@ -1,0 +1,277 @@
+html {
+    font-family: arial;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: auto;
+    padding: auto;
+    display: inline;
+    max-width: 1500px;
+}
+
+header {
+    top: 0;
+}
+
+.feed {
+    margin: auto;
+    max-width: 1200px;
+}
+
+/*homecenter*/
+.homecenter {
+    margin: auto;
+    padding: 0;
+}
+
+.homecenter h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.homecenter p {
+    margin: 1px;
+    padding: 1px;
+}
+
+/*Topnav*/
+.topnav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+}
+
+.topnav img {
+    float: left;
+}
+
+.topnav ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    float: center;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.topnav li {
+    display: inline-block;
+    padding: 0px 15px 15px 0px;
+}
+
+.topnav li a {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+  }
+
+.topnav li a:hover {
+    color: black;
+}
+
+.topnav .active {
+    color: black;
+}
+
+
+/*find a new font for topic/date*/
+.blog {
+    /*display: inline-block;*/
+    float: left;
+    padding: 20px 10px 20px 10px;
+    width: 33.3%;
+    /*
+    border: 1px solid grey;
+    box-shadow: 5px 5px #888888;
+    border-radius: 10px;
+    */
+}
+
+.blog h2 {
+    margin: auto;
+    font-family: 'calibri', sans-serif;
+}
+
+.blog h3 {
+    margin: auto;
+    color: grey;
+    font-family: 'calibri', sans-serif;
+}
+
+.blog h4 {
+    margin: auto;
+    color: blue;
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+}
+
+.blog p {
+    margin: 0;
+    padding: 0px 0px 5px 0px;
+    font-family: 'calibri', sans-serif;
+    color: grey;
+    max-width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    padding: 0;
+    margin: auto;
+    height: 150px;
+    width: auto;
+  }
+
+/*Social*/
+/*replace w/ imgs */
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+    padding: 10px;
+}
+
+.social li a {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+  }
+
+.social li a:hover {
+    color: black;
+}
+
+.social .active {
+    color: black;
+}
+
+/*Feet*/
+.feet {
+    max-width: 600px;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+}
+
+.feet ul {
+    padding: 0;
+    text-align: center;
+}
+
+.feet li {
+    display: inline;
+    padding: 10px;
+}
+
+.feet li a {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+  }
+
+.feet li a:hover {
+    color: black;
+}
+
+/*.social {
+
+}
+
+.feet {
+
+}
+*/
+
+footer {
+    position: relative;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    float: center;
+    }
+
+  @media only screen and (max-width: 1200px) {
+    body {
+        width: 75%;
+        margin: auto;
+        padding: auto;
+    }
+
+    .blog {
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .homecenter {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .topnav li {
+        display: inline;
+    }
+
+  }
+
+  @media only screen and (max-width: 720px) {
+    body {
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .homecenter {
+        text-align: center;
+        width: 100%;
+    }
+
+    .blog {
+        width: 75%;
+        max-width: 500px;
+        margin: 10px;
+    }
+
+    .topnav li {
+        font-size: 80%;
+        padding: 0px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    body {
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .homecenter {
+        text-align: center;
+        width: 100%;
+    }
+
+    .blog {
+        width: 100%;
+        padding: 0;
+    }
+
+    .topnav li {
+        padding: 0;
+        display: contents;
+    }
+
+    .feet {
+        display: inline;
+    }
+
+  }
+
