@@ -1,5 +1,6 @@
 html {
-    font-family: arial;
+    /*Figure out font!*/
+    height: 100%;
 }
 
 * {
@@ -7,14 +8,15 @@ html {
   }
 
 body {
-    margin: auto;
-    padding: auto;
-    display: inline;
-    max-width: 1500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    top: 0;
+    background-color: rgb(198, 241, 255);
+    margin: 0;
 }
 
 .feed {
@@ -24,8 +26,7 @@ header {
 
 /*homecenter*/
 .homecenter {
-    margin: auto;
-    padding: 0;
+    padding: 10px 0px 10px 0px;
 }
 
 .homecenter h1 {
@@ -40,9 +41,7 @@ header {
 
 /*Topnav*/
 .topnav {
-    max-width: 1200px;
     margin: auto;
-    padding: 0;
 }
 
 .topnav img {
@@ -51,16 +50,14 @@ header {
 
 .topnav ul {
     list-style-type: none;
-    padding: 5px;
     text-align: center;
-    float: center;
-    font-size: 24px;
+    font-size: 20px;
     overflow: hidden;
 }
 
 .topnav li {
     display: inline-block;
-    padding: 0px 15px 15px 0px;
+    padding: 0px 30px 0px 0px;
 }
 
 .topnav li a {
@@ -190,11 +187,7 @@ header {
 */
 
 footer {
-    position: relative;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    float: center;
+    margin-top: auto;
     }
 
   @media only screen and (max-width: 1200px) {
