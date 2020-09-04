@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Matt Bramer" content="Personal Homepage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Matt Bramer | That's Me!</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+        <div class="topnav">
+            <ul>
+                <li><a href="#social">social</a></li>
+                <li><a href="#blog">blogs</a></li> 
+                <li><a href="#visuals">visuals</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#home">home</a></li>
+            </ul>
+        </div>
+        <!--
+        <div class="socialnav">
+            <ul>
+                <li><a href="#facebook" class="fa fa-facebook"></a></li>
+                <li><a href="#twitter" class="fa fa-twitter"></a></li>
+                <li><a href="#youtube" class="fa fa-youtube"></a></li>
+                <li><a href="#instagram" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+        -->
+        </header>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
+
+        <div class="homecenter">
+            <h2>Hi, my name is</h2>
+            <h1>MATT BRAMER.</h1>
+            <p>I'm currently residing in Jeffersonville, Indiana. I'm studying to be a software engineer, and this is my personal website! I want to make websites, games, and mobile applications!</p>
+        </div>
+
+        <div class="recent">
+            <h1>MOST RECENT UPLOAD.</h1>
+            
+            <div class="recentpost" href="#">
+            <h3>BLOG POST.</h3>    
+                <h2>Minecraft, The Revisit</h2>
+                <p>Holy moly! I just redownloaded Minecraft after YEARS OF INACTIVITY! I started with a clean NEW WORLD and set off! I didn’t allow cheats, I didn’t change the seed, I didn’t set the world to large biomes. I did, however, have a bonus chest at start. Reason being, it’s been a while, and this could jumpstart my journey! I created the world and I was spawned on an island. Alone. Nothing on the island but a bonus chest, four torches, and me. And, here we go! The story will continue in the next entry.</p>
+            </div>
+
+        </div>
+
+        <div class="about" id="about">
+            
+            <h1>ABOUT ME.</h1>
+            
+            <div class="aboutpost">
+            <p>Hi, I'm Matt. I'm a second year Computer Science Major, attending Southern New Hampshire University.</p> 
+
+            <p>My goal is to become a software engineer. Although, game development is something that is appealing to me. All in all, I just want to make a great product; whether that is a video game, a mobile app, an operating system that goes into a smart refrigorator, or anything!</p>
+            
+            <p>I'm also the happiest man alive to have married my wife, Sandy, over two years ago! We are new parents! Our son, Everett, is five months old now. We also have a shihtzu named Penny.</p>
+
+            <p>I have so much more to say, but you'll have to check out my <a href="#">About Me Blog</a>!</p>
+
+            <p>With knowledge learned from school and personal projects, some technologies I'm familiar with are:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PYTHON</li>
+                <li>SQL</li>
+            </ul>
+
+            <!-- Save for ABOUT ME BLOG -->
+            <!--
+            <p>I used to film and produce YouTube videos on almost a weekly basis. The videos would be a talk show that I hosted, called MATTtalks. I uploaded over 120 episodes. Topics ranged from the best French Dip and Swiss Sandwich, to stories of my first time horseback riding! I still try to make YouTube videos now, but on a much less regular schedule and far less produced.</p>
+
+            <p>I also used to go to school for photography! I thought I was going to be a photographer, until I decided I wanted to be in front of the camera. My dreams have changed, as I'm sure most of yours have too, and I think I've finally decided what I want to do "when I grow up"; become a software engineer.</p>
+            -->
+        </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <h1>SOME THINGS I'VE MADE.</h1>
+            <!--HAVE PROJECT TITLE, SYSTEM USED-->
+
+            <div class="propost" href="#">
+                <h2>THIS SITE.</h2>
+                <div class="projectimg">
+                <img src="./img/project/bmdc ss.png" alt="bmdc" width="auto" height="auto">
+                </div>
+                <p>This is my personal website. I want this to be my professional hub. I'm hosting my projects as well as my blogs here.</p>
+            </div>
+            
+            <a href="#">MORE PROJECTS</a> 
+        </div>
+
+        <div class="visuals" id="visuals">
+            <h1>VISUALS.</h1>
+            <!--Projects go here, VIDEO/PHOTO-->
+
+            <!--
+                THIS IS EXACTLY HOW VIDEOS SHOW BE UPLOADED. OPEN VIDEO IN BROWSER, RIGHT CLICK, 'COPY EMBEDDED CODE'.
+
+                tw-align-center
+            -->
+
+            <div class="visualspost" href="#">
+            <iframe width="980" height="540" src="https://www.youtube.com/embed/rPYO8vUA6WE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="visualspost" href="#">
+            <iframe width="980" height="540" src="https://www.youtube.com/embed/k1RmcZvWHx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+            <a href="#">MORE VISUALS</a> 
+
+        </div>
+
+        <div class="blog" id="blog">
+            <h1>BLOGS.</h1>
+
+            <div class="blogpost" href="#">
+                <h2>OH NO, FORTNITE</h2>
+                <p>I have had some inkling to start playing FORTNITE again. Reason being, it’s been in the news, so I’m interested in getting back into it. However, this time will be on PC, instead of PS4. Reason being, I work in IT now and I’m loving it. However, that’s not the point of this document. The point of this document is, as mentioned I work in IT, so I work on a computer all day, and I get an HOUR lunch break every day! So, I’ve already downloaded Minecraft to my computer so it’s easy to jump right into my world and play! Another reason I’m interested in FORTNITE is that it is FREE! Free is great! My life as a new father, husband, homeowner, and dog-dad, is an expensive one, and free is great! So, here goes FORTNITE!</p>
+            </div> 
+
+            <div class="blogpost" href="#">
+                <h2>Minecraft, The Revisit</h2>
+                <p>Holy moly! I just redownloaded Minecraft after YEARS OF INACTIVITY! I started with a clean NEW WORLD and set off! I didn’t allow cheats, I didn’t change the seed, I didn’t set the world to large biomes. I did, however, have a bonus chest at start. Reason being, it’s been a while, and this could jumpstart my journey! I created the world and I was spawned on an island. Alone. Nothing on the island but a bonus chest, four torches, and me. And, here we go! The story will continue in the next entry.</p>
+            </div>
+
+            <div class="blogpost" href="#">
+                <h2>Update on the Website</h2>
+                <p>Working hard today on sizing.I continue to get distracted on different things. I really enjoying bouncing around to keep me excited about the project, but still struggling with different things.I’m enjoying writing and that’s good. I’ve been posting to my medium page, but that won’t last forever because I will not be renewing my membership, so I need to figure out the sizing and different things for new posts to the site.It’s easy with medium because there is basically a link that “links” to the medium page so I barely have to do any work to get the blog post up to my site.Back to work!</p>
+            </div>
+        
+            <a href="#">MORE BLOGS</a>
+        </div>
+
+        <div class="social" id="social">
+            <h1>SOCIAL.</h1>
+
+            <div class="socialpost" href="#">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmatthew.t.bramer%2Fposts%2F3405432839477718&show_text=true&width=552&height=585&appId" width="552" height="585" style="border:none;overflow:hidden" scrolling="no" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+
+            <div class="socialpost" href="#">
+                <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">I made some great progress on my site today! I finally think I’m confident in this design. This is version 5 of my personal website. I keep “refining” it and I’m never satisfied. Let’s see if this one makes the cut. <br><br>Looking at 21’ for release. <a href="https://twitter.com/hashtag/webdevdiary?src=hash&amp;ref_src=twsrc%5Etfw">#webdevdiary</a></p>&mdash; Matt (@bramermatt) <a href="https://twitter.com/bramermatt/status/1301729986269917185?ref_src=twsrc%5Etfw">September 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+        </div>
+    </body>
+
+    <footer>
+        <div class="social-footer">
+            <ul>
+
+                <li><a href="https://www.facebook.com/matthew.t.bramer" target="_blank"><img src="./img/social/facebooklogo.png" alt="fb" width="auto" height="auto"></a></li>
+            
+
+                <li><a href="https://www.instagram.com/bramermatt" target="_blank"><img src="./img/social/instagramlogo.png" alt="ig" width="auto" height="auto"></a></li>
+
+                <li><a href="https://github.com/bramermatt" target="_blank"><img src="./img/social/githublogo.png" alt="gh" width="auto" height="auto"></a></li>
+                
+                <li><a href="https://www.linkedin.com/in/matthew-bramer-505828179/" target="_blank"><img src="./img/social/linkedinlogo.png" alt="li" width="auto" height="auto"></a></li>
+                
+                <li><a href="https://www.twitter.com/bramermatt" target="_blank"><img src="./img/social/twitterlogo.png" alt="tw" width="auto" height="auto"></a></li>
+
+                <li><a href="https://www.youtube.com/c/mattbramer" target="_blank"><img src="./img/social/youtubelogo.png" alt="yt" width="auto" height="40px"></a></li>
+
+            </ul>
+        </div>
+    </footer>
+
+</html>
