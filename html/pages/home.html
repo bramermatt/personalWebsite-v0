@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Matt Bramer" content="Personal Homepage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Matt Bramer | That's Me!</title>
+        <link rel="stylesheet" type="text/css" href="../css/pages/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>    
+        
+        <header>
+        <div class="topnav">
+            <ul>
+                <!--<li><a href="#social">social</a></li>-->
+                <li><a href="#blog">blogs</a></li> 
+                <li><a href="#visuals">visuals</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#home">home</a></li>
+            </ul>
+        </div>
+        <div class="imgnav">
+            <ul>
+                <li><a href="#blog"><img src="../img/nav/blog.png" alt="blog" width="auto" height="50"></a></li>
+                <li><a href="#visuals"><img src="../img/nav/visuals.PNG" alt="visuals" width="auto" height="50"></a></li>
+                <li><a href="#projects"><img src="../img/nav/projects.PNG" alt="projects" width="auto" height="50"></a></li>
+                <li><a href="#about"><img src="../img/nav/about.PNG" alt="about" width="auto" height="50"></a></li>
+                <li><a href="#home"><img src="../img/nav/home.png" alt="home" width="auto" height="50"></a></li>
+            </ul>
+        </div>
+        <!--
+        <div class="socialnav">
+            <ul>
+                <li><a href="#facebook" class="fa fa-facebook"></a></li>
+                <li><a href="#twitter" class="fa fa-twitter"></a></li>
+                <li><a href="#youtube" class="fa fa-youtube"></a></li>
+                <li><a href="#instagram" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+        -->
+        </header>
+    </head>
+
+    <body>
+
+        <div class="fullbody">
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
+
+        <div class="homecenter">
+            <h2>Hi, my name is</h2>
+            <h1>MATT BRAMER.</h1>
+            <p>I'm studying to be a software engineer, and I want to make websites, games, and mobile apps!</p>
+        </div>
+
+        <!--
+        <div class="recent">
+            <h1>MOST RECENT UPLOAD.</h1>
+            
+            <div class="recentpost" href="#">
+            <h3>BLOG POST.</h3>    
+                <h2>Minecraft, The Revisit</h2>
+                <p>Holy moly! I just redownloaded Minecraft after YEARS OF INACTIVITY! I started with a clean NEW WORLD and set off! I didn’t allow cheats, I didn’t change the seed, I didn’t set the world to large biomes. I did, however, have a bonus chest at start. Reason being, it’s been a while, and this could jumpstart my journey! I created the world and I was spawned on an island. Alone. Nothing on the island but a bonus chest, four torches, and me. And, here we go! The story will continue in the next entry.</p>
+            </div>
+
+        </div>
+        -->
+
+
+        <div class="about" id="about">
+            
+            <h1>ABOUT ME.</h1>
+            
+            <div class="aboutpost">
+            <p>Hi, I'm Matt. I'm a second year Computer Science Major, attending Southern New Hampshire University.</p> 
+
+            <p>My goal is to become a software engineer. Although, game development is something that is appealing to me. All in all, I just want to make a great product; whether that is a video game, a mobile app, an operating system that goes into a smart refrigorator, or anything!</p>
+            
+            <p>I'm also the happiest man alive to have married my wife, Sandy, over two years ago! We are new parents! Our son, Everett, is five months old now. We also have a shihtzu named Penny.</p>
+
+            <p>With knowledge learned from school and personal projects, some technologies I'm familiar with are:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PYTHON</li>
+                <li>SQL</li>
+            </ul>
+
+            <!-- Save for ABOUT ME BLOG -->
+            <!--
+            <p>I used to film and produce YouTube videos on almost a weekly basis. The videos would be a talk show that I hosted, called MATTtalks. I uploaded over 120 episodes. Topics ranged from the best French Dip and Swiss Sandwich, to stories of my first time horseback riding! I still try to make YouTube videos now, but on a much less regular schedule and far less produced.</p>
+
+            <p>I also used to go to school for photography! I thought I was going to be a photographer, until I decided I wanted to be in front of the camera. My dreams have changed, as I'm sure most of yours have too, and I think I've finally decided what I want to do "when I grow up"; become a software engineer.</p>
+            -->
+        </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <h1>SOME THINGS I'VE MADE.</h1>
+            <!--HAVE PROJECT TITLE, SYSTEM USED-->
+
+            <div class="propost" href="#">
+                <h2>THIS SITE.</h2>
+
+                <a href="#">open</a>
+                <a href="https://github.com/bramermatt/bramermatt-website-01" target="_blank"><img src="../img/social/githublogo.png" alt="gh" width="auto" height="30"></a>
+
+                <div class="projectimg">
+                <img src="../img/project/bmdc ss.png" alt="bmdc" width="auto" height="auto">
+                </div>
+                <p>This is my personal website! Projects, Visuals, and Blogs!</p>
+            </div>
+            
+            <a href="projects.html">MORE PROJECTS</a> 
+        </div>
+
+        <div class="visuals" id="visuals">
+            <h1>VISUALS.</h1>
+            <!--Projects go here, VIDEO/PHOTO-->
+
+            <!--
+                THIS IS EXACTLY HOW VIDEOS SHOW BE UPLOADED. OPEN VIDEO IN BROWSER, RIGHT CLICK, 'COPY EMBEDDED CODE'.
+
+                tw-align-center
+            -->
+
+            <div class="visualspost" href="#">
+            <iframe width="980" height="540" src="https://www.youtube.com/embed/rPYO8vUA6WE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>VR - BTeam Media Gamescast</h2>
+            <p>A chat about VR!</p>
+            </div>
+
+            <div class="visualspost" href="#">
+            <img src="../img/visual/sandycropweek4wtext.png" alt="sandypreg" width="980" height="540">
+            <h2>My Wife, Trimester 1</h2>
+            <p>My wife, once I found out she was pregnant.</p>
+            </div>
+
+            <div class="visualspost" href="#">
+            <iframe width="980" height="540" src="https://www.youtube.com/embed/k1RmcZvWHx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Let's Play Surgeon Simulator VR</h2>
+            <p>A let's play in VR of Surgeon Simulator!</p>
+            </div>
+
+            <div class="visualspost" href="#">
+                <img src="../img/visual/sandy2017-1.jpg" alt="sandy2017" width="980" height="540">
+                <h2>My Wife, Circa 2017</h2>
+                <p>When B-Team Photo was fully in effect!</p>
+                </div>
+
+
+
+            <a href="visuals.html">MORE VISUALS</a> 
+
+        </div>
+
+        <div class="blog" id="blog">
+            <h1>BLOGS.</h1>
+
+            <div class="blogpost" href="#">
+                <h2>OH NO, FORTNITE</h2>
+                <a href="../blogs/ohnofortnite.html">open blog</a>
+                
+                <p>I have had some inkling to start playing FORTNITE again. Reason being, it’s been in the news, so I’m interested in getting back into it. However, this time will be on PC, instead of PS4. Reason being, I work in IT now and I’m loving it. However, that’s not the point of this document.</p> 
+                
+                <p>The point of this document is, as mentioned I work in IT, so I work on a computer all day, and I get an HOUR lunch break every day! So, I’ve already downloaded Minecraft to my computer so it’s easy to jump right into my world and play! Another reason I’m interested in FORTNITE is that it is FREE! Free is great! My life as a new father, husband, homeowner, and dog-dad, is an expensive one, and free is great! So, here goes FORTNITE!</p>
+            </div> 
+
+            <div class="blogpost" href="#">
+                <h2>Minecraft, The Revisit</h2>
+                <a href="../blogs/minecrafttherevisit.html">open blog</a>
+                <p>Holy moly! I just redownloaded Minecraft after YEARS OF INACTIVITY! I started with a clean NEW WORLD and set off! I didn’t allow cheats, I didn’t change the seed, I didn’t set the world to large biomes. I did, however, have a bonus chest at start. Reason being, it’s been a while, and this could jumpstart my journey! I created the world and I was spawned on an island. Alone. Nothing on the island but a bonus chest, four torches, and me. And, here we go! The story will continue in the next entry.</p>
+            </div>
+
+            <div class="blogpost">
+                <h2>I'm Hooked on The IT Crowd</h2>
+                <a href="../blogs/imhookedontheitcrowd.html">open blog</a>
+                <p>I’ve been in the market for a new show. Not just any new show; but one that would suit my very distinct needs. See, I like a bit of drama, and a long running series that I can really sink my teeth into. I’ve been jumping show to show for the past few weeks. I seem to get through two seasons straight and then, I’m over it...</p>
+
+                <p>...</p>
+                    
+                <!--The most recent show I watched was House of Cards! An exciting, yet slow burn, show that followed the rise and fall of Frank Underwood, the Congress Whip. I’m honestly not sure what that means, or if that was his actual title. However, he did whip some votes. 
+                    
+                Two shows ago, I was all about Blindspot. A show about a woman who arrived in the middle of New York City with elaborate tattoos and no memory. One tattoo has the name of an exciting FBI employee. Then chaos ensues. Episodes have stories weave in and out of nonsense to incredible drama. The visual effects are left much to be desired. 
+                    
+                Three shows ago was Prison Break, and incredible show about a man whose brother was convicted of a crime he did not commit. The “un-imprisoned” brother decided to break the other brother out of jail. How did he do it? He knew the plans of the prison because he was a structural engineer and knew the plans of the prison. By the end of season one, they’ve broken out. By the end of season two, they’re back in jail. By the end of season three, they’ve broken out. By the end of season four, there are characters that are there that have had no importance on the show and could’ve been completely made up to create this plot for season four. Which seems very real. Then season five comes around and apparently the main character is NOT DEAD. Really poor story, if you ask me. Convenient that the story just so happens to work out that he is not dead, and they must break out of YET ANOTHER PRISON.
+                    
+                Both House of Cards and Blindspot were shows that really made me want to STOP watching them. I got two seasons in, and I just couldn’t take it any longer. There was nothing that kept me watching. I got completely interested in political science while watching house of cards and that’s all I talked about, for the 3 weeks I was watching that show. My wife did not enjoy those conversations. 
+                    
+                Something I’ve noticed, is that most shows do not have the entirety of the show planned out beforehand. Obviously, because that would be terrible and no fun for the writers, directors, actors, anyone. But it makes for a better viewing experience to not think that these characters are alive FOR NO OTHER REASON THAN TO SERVICE THE PLOT. 
+                    
+                Anyways, rant over. The cusp of the matter is: I found a new show. The show is entitled, “The IT Crowd”. Now, I’m only two episodes in so far and I’m madly in love with this show. From what I’ve gathered so far, this show takes place in what seems to be England (based on their accents), and this show follows two gentlemen who are the Information Technology division of their company. When, a new woman is being hired to their company and she lies on her resume, or CV, as they say in the show. On her CV, it states that she is adept in “Computers”, which makes the boss place her as the IT Manager. With her lack of knowledge and the incredibly dorky Moss and Roy, chaos ensues. 
+                    
+                I’m incredibly devoted to this show now, because I’m in a new career, IT, and I’m thoroughly enjoying the humor! 
+                    
+                So, that is why, I’m hooked on The IT Crowd! 
+                </p>
+                -->
+            </div>
+        
+            <a href="blog.html">MORE BLOGS</a>
+        </div>
+
+        <!--
+        <div class="social" id="social">
+            <h1>SOCIAL.</h1>
+
+            <div class="socialpost" href="#">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmatthew.t.bramer%2Fposts%2F3405432839477718&show_text=true&width=552&height=585&appId" width="552" height="585" style="border:none;overflow:hidden" scrolling="no" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+
+            <div class="socialpost" href="#">
+                <center><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CEnWvxGHbOI/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CEnWvxGHbOI/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CEnWvxGHbOI/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Matt Bramer (@bramermatt)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-09-02T01:00:11+00:00">Sep 1, 2020 at 6:00pm PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script></center>
+            </div>
+
+
+            <div class="socialpost" href="#">
+                <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">I made some great progress on my site today! I finally think I’m confident in this design. This is version 5 of my personal website. I keep “refining” it and I’m never satisfied. Let’s see if this one makes the cut. <br><br>Looking at 21’ for release. <a href="https://twitter.com/hashtag/webdevdiary?src=hash&amp;ref_src=twsrc%5Etfw">#webdevdiary</a></p>&mdash; Matt (@bramermatt) <a href="https://twitter.com/bramermatt/status/1301729986269917185?ref_src=twsrc%5Etfw">September 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            -->
+        </div>
+
+   
+
+        </div>
+    </body>
+
+    <footer>
+        <!--
+        <div class="social-forms">
+            <ul>
+                <li><a href="#" target="_blank">Bugs</a></li>
+                
+                <li><a href="#" target="_blank">Features</a></li>
+            </ul>
+        </div>
+        -->
+
+        <div class="social-footer">
+            <ul>
+                <li><a href="https://www.facebook.com/matthew.t.bramer" target="_blank"><img src="../img/social/facebooklogo.png" alt="fb" width="auto" height="auto"></a></li>
+
+                <li><a href="https://www.instagram.com/bramermatt" target="_blank"><img src="../img/social/instagramlogo.png" alt="ig" width="auto" height="auto"></a></li>
+
+                <li><a href="https://github.com/bramermatt" target="_blank"><img src="../img/social/githublogo.png" alt="gh" width="auto" height="auto"></a></li>
+                
+                <li><a href="https://www.linkedin.com/in/matthew-bramer-505828179/" target="_blank"><img src="../img/social/linkedinlogo.png" alt="li" width="auto" height="auto"></a></li>
+                
+                <li><a href="https://www.twitter.com/bramermatt" target="_blank"><img src="../img/social/twitterlogo.png" alt="tw" width="auto" height="auto"></a></li>
+
+                <li><a href="https://www.youtube.com/c/mattbramer" target="_blank"><img src="../img/social/youtubelogo.png" alt="yt" width="auto" height="40px"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</html>
